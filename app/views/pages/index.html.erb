@@ -1,0 +1,16 @@
+<div data-controller="hello">
+  <button data-action="click->hello#greet">
+    Say hello
+  </button>
+</div>
+
+<div data-controller="toggle">
+  <div data-toggle-target="first">
+    <p>Step 1</p>
+    <button data-action="click->toggle#swap">Next</button>
+  </div>
+
+  <div data-toggle-target="second" class="hidden">
+    <p>Step 2</p>
+  </div>
+</div>
