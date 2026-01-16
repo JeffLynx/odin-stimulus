@@ -17,7 +17,7 @@
 
 <div data-controller="highlight">
   <label>
-    <input type="checkbox" data-action="change->highlight#toggle">
+    <input type="checkbox" id="checkbox" data-action="change->highlight#toggle">
     Highlight this box
   </label>
 </div>
@@ -29,6 +29,7 @@
   <textarea
     data-character-counter-target="input"
     data-action="input->character-counter#update"
+    id="input"
   ></textarea>
 
   <p data-character-counter-target="count">
