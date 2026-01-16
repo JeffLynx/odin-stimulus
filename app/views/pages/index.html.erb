@@ -21,3 +21,17 @@
     Highlight this box
   </label>
 </div>
+
+<div
+    data-controller="character-counter"
+    data-character-counter-max-value="280"
+>
+  <textarea
+    data-character-counter-target="input"
+    data-action="input->character-counter#update"
+  ></textarea>
+
+  <p data-character-counter-target="count">
+    280 characters remaining
+  </p>
+</div>

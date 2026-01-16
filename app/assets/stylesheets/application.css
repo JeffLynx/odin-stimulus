@@ -17,3 +17,12 @@
   background-color: #ffeaa7;
   border: 1px solid #fdcb6e;
 }
+
+.warning {
+  color: orange;
+}
+
+.over {
+  color: red;
+  font-weight: bold;
+}
