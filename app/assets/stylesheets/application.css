@@ -12,3 +12,8 @@
 .hidden {
   display: none;
 }
+
+.highlighted {
+  background-color: #ffeaa7;
+  border: 1px solid #fdcb6e;
+}
